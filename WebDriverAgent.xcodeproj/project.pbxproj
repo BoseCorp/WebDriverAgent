@@ -1109,6 +1109,7 @@
 		71F5BE33252E5B2200EE9EBA /* FBElementSwipingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBElementSwipingTests.m; sourceTree = "<group>"; };
 		71F5BE4D252F14EB00EE9EBA /* FBExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBExceptions.h; sourceTree = "<group>"; };
 		71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBExceptions.m; sourceTree = "<group>"; };
+		9B389D4D2E0D91160039E08E /* WebDriverAgentRunner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WebDriverAgentRunner.entitlements; path = WebDriverAgentRunner/WebDriverAgentRunner.entitlements; sourceTree = SOURCE_ROOT; };
 		AD42DD2A1CF121E600806E5D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		AD6C26921CF2379700F8B5FF /* FBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBAlert.h; path = WebDriverAgentLib/FBAlert.h; sourceTree = SOURCE_ROOT; };
 		AD6C26931CF2379700F8B5FF /* FBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FBAlert.m; path = WebDriverAgentLib/FBAlert.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -2281,6 +2282,7 @@
 			children = (
 				EE9AB7FC1CAEE048008C271F /* Info.plist */,
 				EE9AB7FD1CAEE048008C271F /* UITestingUITests.m */,
+				9B389D4D2E0D91160039E08E /* WebDriverAgentRunner.entitlements */,
 			);
 			name = WebDriverAgentRunner;
 			path = XCTUITestRunner;
@@ -4376,7 +4378,7 @@
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = WebDriverAgentRunner.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 569TSGL8X5;
