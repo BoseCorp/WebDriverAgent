@@ -4339,7 +4339,7 @@
 					"$(inherited)",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bose.appium.wda.runner.ent.xctrunner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.appium.wda.runner.ent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Appium WDA Runner";
 				USES_XCTRUNNER = YES;
@@ -4397,7 +4397,7 @@
 					"$(inherited)",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bose.appium.wda.runner.ent.xctrunner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bose.appium.wda.runner.ent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Appium WDA Runner";
 				USES_XCTRUNNER = YES;
