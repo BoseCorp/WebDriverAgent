@@ -7,10 +7,19 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <UIKit/UIKit.h>
+(* #import <UIKit/UIKit.h>
 
 int main(int argc, char * argv[]) {
   @autoreleasepool {
       return UIApplicationMain(argc, argv, nil, @"AppDelegate");
+  }
+} *)
+#import <UIKit/UIKit.h>
+#import "FBWebDriverAgentRunner.h"
+
+int main(int argc, char * argv[]) {
+  @autoreleasepool {
+    [[FBWebDriverAgentRunner new] run];  // ✅ Start the server directly
+    return UIApplicationMain(argc, argv, nil, nil);
   }
 }
