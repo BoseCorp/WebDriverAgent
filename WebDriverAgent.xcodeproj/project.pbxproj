@@ -4349,6 +4349,7 @@
 					/System/Developer/Library/PrivateFrameworks,
 					/System/Developer/Library/Frameworks,
 				);
+				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -4409,6 +4410,7 @@
 					/System/Developer/Library/PrivateFrameworks,
 					/System/Developer/Library/Frameworks,
 				);
+				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
