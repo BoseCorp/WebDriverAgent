@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EEF988291C486603005CA669"
-               BuildableName = "WebDriverAgentRunner.app"
+               BuildableName = "WebDriverAgentRunner.xctest"
                BlueprintName = "WebDriverAgentRunner"
                ReferencedContainer = "container:WebDriverAgent.xcodeproj">
             </BuildableReference>
